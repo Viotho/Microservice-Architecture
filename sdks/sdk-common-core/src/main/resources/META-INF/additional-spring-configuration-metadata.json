@@ -1,0 +1,23 @@
+{
+  "properties": [
+    {
+      "name": "structure.async.corePoolSize",
+      "type": "java.lang.String",
+      "description": "Description for structure.async.corePoolSize."
+    },
+    {
+      "name": "structure.async.maxPoolSize",
+      "type": "java.lang.String",
+      "description": "Description for structure.async.maxPoolSize."
+    },
+    {
+      "name": "structure.async.queueCapacity",
+      "type": "java.lang.String",
+      "description": "Description for structure.async.queueCapacity."
+    },
+    {
+      "name": "structure.async.threadNamePrefix",
+      "type": "java.lang.String",
+      "description": "Description for structure.async.threadNamePrefix."
+    }
+  ] }

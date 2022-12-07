@@ -1,0 +1,36 @@
+spring:
+  cloud:
+    stream:
+      rocketmq:
+        binder:
+          # RocketMQ 服务器地址
+          name-server: 127.0.0.1:9876
+        bindings:
+          inputChannel-2:
+            consumer:
+              #增加tag过滤
+              tags: tag
+          outputChannel-1:
+            producer:
+              group: producer-group
+
+      bindings:
+        inputChannel-1:
+          binder: rocketmq
+          destination: test-topic
+          content-type: text/plain
+          group: consumer-group1
+          consumer:
+            #并发消费线程数
+            concurrency: 20
+        inputChannel-2:
+          binder: rocketmq
+          destination: test-topic
+          content-type: application/json
+          group: consumer-group2
+          consumer:
+            #并发消费线程数
+            concurrency: 20
+        outputChannel-1:
+          destination: test-topic
+          content-type: application/json

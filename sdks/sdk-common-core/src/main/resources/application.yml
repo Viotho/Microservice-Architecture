@@ -1,0 +1,13 @@
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
+
+platform:
+  async:
+    corePoolSize: 10
+    maxPoolSize: 100
+    queueCapacity: 10
+    threadNamePrefix: AsyncExecutor-

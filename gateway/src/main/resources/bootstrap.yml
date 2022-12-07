@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: cloud-gateway
+
+configs:
+  oauth2:
+    token:
+      store:
+        type: resourceJwt

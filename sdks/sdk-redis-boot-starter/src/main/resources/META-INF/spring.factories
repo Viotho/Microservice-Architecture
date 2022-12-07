@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.jackyzeng.redis.config.RedisAutoConfigure,\
+com.jackyzeng.redis.repository.RedisRepository

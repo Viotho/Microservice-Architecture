@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Gateway.iml" filepath="$PROJECT_DIR$/Gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Uaa/Uaa.iml" filepath="$PROJECT_DIR$/../Uaa/Uaa.iml" />
+    </modules>
+  </component>
+</project>
