@@ -1,8 +1,8 @@
 package com.jackyzeng.common.feign;
 
+import com.jackyzeng.common.constants.ServiceNameConstants;
 import com.jackyzeng.common.feign.fallback.UserServiceFallbackFactory;
 import com.jackyzeng.common.model.SysUser;
-import com.jackyzeng.common.constants.ServiceNameConstants;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;

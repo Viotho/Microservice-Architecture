@@ -1,7 +1,6 @@
 package com.jackyzeng.demo.message.service;
 
 import org.springframework.cloud.stream.annotation.StreamListener;
-import org.springframework.messaging.Message;
 import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.stereotype.Service;
 

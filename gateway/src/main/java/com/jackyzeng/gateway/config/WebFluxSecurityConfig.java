@@ -1,7 +1,7 @@
 package com.jackyzeng.gateway.config;
 
-import com.jackyzeng.gateway.auth.WebFluxAuthenticationManager;
 import com.jackyzeng.gateway.auth.AccessPermissionManager;
+import com.jackyzeng.gateway.auth.WebFluxAuthenticationManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

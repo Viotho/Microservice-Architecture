@@ -1,7 +1,7 @@
 package com.jackyzeng.common.feign.fallback;
 
-import com.jackyzeng.common.model.SysUser;
 import com.jackyzeng.common.feign.UserService;
+import com.jackyzeng.common.model.SysUser;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.cloud.openfeign.FallbackFactory;
 

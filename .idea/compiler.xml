@@ -23,7 +23,6 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="logging" target="1.8" />
-      <module name="Microservice-Architecture" target="1.8" />
       <module name="sdk-message-boot-starter" target="8" />
       <module name="untitled" target="8" />
     </bytecodeTargetLevel>
